@@ -1,0 +1,393 @@
+html {
+    font-size: 16px;
+    margin: 0px;
+}
+
+div, nav, main, section, 
+article, aside, footer, {
+    
+}
+
+.banner-container {
+    width: 100%;
+    margin: auto;
+}
+
+.wrap {
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+}
+
+.banner-header{
+   background-color: pink;
+}
+
+.banner {
+    padding: 5px;
+	background-color: #cc0000;
+	color: aliceblue;  
+}
+
+.banner > h3 {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    line-height: 1;
+	margin: 9px;
+    font-size: 0.7em;
+     background-color: #cc0000;
+}
+
+.banner > h4 {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    line-height: 1;
+	margin: 9px;
+    font-size: 1.2em;
+    background-color: #cc0000;
+}
+
+nav {
+    padding: 10px;
+    color:teal;
+    background-color: black;
+}
+
+.menu-list {
+    margin-left: 3px;    
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    color: #bfbfbf;
+    line-height: 1;
+}
+
+.left-nav {
+    padding: 2px;
+    margin-left: 55px;
+    display: inline-block;
+}
+
+.right-nav {
+    position: relative;
+    right: 55px;
+     padding: 2px;
+    float: right;
+    display: inline-block;
+}
+
+.live-bar {
+    padding:0px 3px 0 3px;
+    border: solid 1px #bfbfbf;
+    display: inline-block;
+}
+
+a {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    color: #bfbfbf;
+    line-height: 1;
+    font-size: .8em;
+    margin: 0 7px 0 7px;
+    text-decoration: none; 
+    color: #bfbfbf;
+}
+
+.circle-red:before {
+    margin: 0 2px 0 2px;
+    content: ' \25CF';
+    font-size: 15px;
+    color: #bfbfbf;
+}
+
+.US-edition {
+    color: #595959;
+    display: inline-block;
+}
+
+.search-logo {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 2px;  
+}
+
+.menu-list:after{
+    content: " |";
+    color: #595959;
+}
+
+.cnn-logo {
+    margin-top: -41.6px;
+    height: 55.6px;
+    width: 55.6px;
+}
+
+body {
+    margin: 0px;
+}
+
+.image {
+    width: 100%;
+}
+
+.three-col {
+    width: 32%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: .5px;
+    background-color: #f2f2f2;
+}
+
+section {
+    display: flex;
+    margin: 10px;
+}
+
+.two-col {
+    display: inline-block;
+    width: 48%;
+}
+
+.article {
+    font-family:  CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    color: #595959;
+    border-top: solid 1px #595959;
+    margin: 5px;
+}
+
+.box {
+    position: relative;
+}
+
+.bottom-left {
+    background-color: gainsboro;
+    color: #cc0000;
+    position: absolute;
+    bottom: 4px;
+}
+
+.bottom-left-black {
+    color:aliceblue;
+    background-color: black;
+    position: absolute;
+    bottom: 4px;
+}
+
+.bottom-middle {
+    background-color: gainsboro;
+    position: absolute;
+    opacity: .6;
+    filter: alpha(opacity=50);
+    bottom: 4px;
+    text-align: center;
+    width: 90%;
+    left: 10px;
+    color: black;
+}
+
+#nav-toggle {
+    padding: px;
+}
+.bottom-header {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: .9em;
+    margin: 7px;  
+}
+.headline {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 700;
+    font-size: 1.06667rem;
+    line-height: 1.375;
+    margin: 5px;   
+}
+
+.h2-headline {
+    font-family: CNN,Helvetica Neue,Verdana,Helvetica,Arial,Utkal,sans-serif;
+    margin: 0 0 10px;
+    padding-bottom: 0;
+    margin: 2px;
+    color: #262626;
+    font-size: 36px!important;
+}
+
+.h3-headline-text {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    font-size: 1.01rem;
+    line-height: 1.14286;
+    margin: 0px 1px 0px 1px;
+}
+
+.h2-headline-text {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    font-size: .95rem;
+    line-height: 1.14286;
+    margin: 0px 1px 0px 1px;
+}
+
+.header--stripes{
+    display: inline-block;
+    height: 16px;
+    vertical-align: bottom;
+}
+
+.header__stripes:after{
+    height: 1px;
+    border-bottom: 4px solid #d9d9d9;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+}
+
+one-col {
+    width: 100%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.one-col-header-text {
+    margin: 5px;
+}
+
+.one-col-container-black{
+   background-color: rgb(26, 26, 26);
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif; 
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+}
+
+.two-col .articles {
+    font-family:  CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    color: white;
+    border-top: solid 1px #595959;
+    margin: 5px;
+}
+
+.seven-col {
+    width: 13.7%;
+    display: inline-block;
+}
+
+.headline-info {
+    margin: 5px;
+    font-family:  CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.extra {
+    font-family:  CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    color: #595959;
+    margin: 5px;
+}
+
+.weather-city {
+    padding-right: 15px;
+    font-family:  CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.weather {
+    margin: 3px 0px 7px 5px;
+    display: inline-block;
+}
+
+.temp {
+    font-family:  CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.weather-icon {
+    margin-bottom: -12px;
+}
+
+.footer-nav input[type=text] {
+    background-color: rgb(26, 26, 26);
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -36px;
+    margin-right: 16px;
+    font-size: .9em;
+    border: 1px solid #ccc;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+    background-color: rgb(26, 26, 26);
+    float: right;
+    padding: 5px;
+    height: 20px;
+    outline: none;
+}
+
+.searchTerm:focus{
+    color: rgb(26, 26, 26);
+}
+
+.searchButton {
+    position: relative;
+    float: right;
+    right: 25px;
+    top: -29px;
+    width: 20px;
+    height: 20px;
+    background: rgb(26, 26, 26);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: .1px solid rgb(26, 26, 26);
+}
+
+.header-stripes-red {
+    display: inline-block;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+.header-stripes-red::after {
+    height: 1px;
+    border-bottom: 4px solid #c00;
+    border-top: 4px solid #c00;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 57.6%;
+}
+
+.header-stripes-white {
+    display: inline-block;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+.header-stripes-white::after {
+    height: 1px;
+    border-bottom: 4px solid #ccc;
+    border-top: 4px solid #ccc;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 53.7%;
+}
